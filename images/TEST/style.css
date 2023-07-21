@@ -1,0 +1,32 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+ul {
+    list-style: none; 
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-size: 10px;
+    padding: 15px;
+}
+
+#spec1 {
+  background-color: darkred;
+}
+
+#spec2 {
+    margin-left: -5px;
+}
+
+body {
+    background-color: black;
+}
