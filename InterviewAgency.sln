@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E8B82AF-57B3-48B8-8715-8FE7BD7BD120}"
+	ProjectSection(SolutionItems) = preProject
+		CSS INDEX.css = CSS INDEX.css
+		INDEX.html = INDEX.html
+		jquery-3.4.1.js = jquery-3.4.1.js
+		JS-IA.js = JS-IA.js
+		Publish.html = Publish.html
+		PublishC.html = PublishC.html
+		PublishF.html = PublishF.html
+		RegistrationC.html = RegistrationC.html
+		RegistrationF.html = RegistrationF.html
+		Search.html = Search.html
+		..\..\Portfolio TEST 1 - BACKUP 13\TEST CSS INDEX.css = ..\..\Portfolio TEST 1 - BACKUP 13\TEST CSS INDEX.css
+		TEST CSS T-shirts.css = TEST CSS T-shirts.css
+		TEST INDEX-Tshirts.html = TEST INDEX-Tshirts.html
+		..\..\Portfolio TEST 1 - BACKUP 13\TEST INDEX.html = ..\..\Portfolio TEST 1 - BACKUP 13\TEST INDEX.html
+		TOP.css = TOP.css
+		TOP.html = TOP.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3C1999B-CA9D-4F75-8FFD-93D34CB9F4CC}
+	EndGlobalSection
+EndGlobal

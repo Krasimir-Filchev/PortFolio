@@ -1,0 +1,542 @@
+﻿body
+{
+}
+.logo {
+	 background-color: white;
+	 opacity: 1;
+	 height: 100px;
+	 width: 125px;
+     padding: 0px 500px 0px 0px;
+     margin: 20px 0px 0px 0px;
+}
+.girl {
+     height: 400px;
+	 width: 1450px;
+     padding: 0px 0px 0px 0px;
+     position: absolute;
+}
+h1 {
+     text-align: center;
+     color: #1699da;
+     font-size: 45px;
+     padding: 0px 460px 0px 0px;
+     margin: 20px 0px 0px -180px;
+}
+h2 {
+      text-align: center;
+      color: #1699da;
+      font-size: 30px;
+      margin: 440px 0px 0px -40px;
+}
+h3 {
+      text-align: center;
+      color: #1699da;
+      font-size: 20px;
+      padding: 0px 0px 0px 0px;
+      margin: 1780px 0px 0px 670px;
+      position: absolute;
+}
+h4 {
+      text-align: center;
+      color: #1699da;
+      font-size: 15px;
+      margin: 1850px 0px 0px 580px;
+      position: absolute;
+}
+.button1 {
+    background-color:  #aaa795;
+    height: 23px;
+    width: 100px;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    font-size: 13px;
+    border-radius: 20%;
+    border-color: black;
+}
+.button2 {
+    background-color: #aaa795;
+    height: 23px;
+    width: 100px;
+    position: absolute;
+    margin: 0px 0px 0px 105px;
+    font-size: 13px;
+    border-radius: 20%;
+    border-color: black;
+}
+.button3 {
+    background-color: #aaa795;
+    height: 23px;
+    width: 100px;
+    position: absolute;
+    margin: 0px 0px 0px 210px;
+    font-size: 13px;
+    border-radius: 20%;
+    border-color: black;
+}
+.button4 {
+    background-color: #aaa795;
+    height: 23px;
+    width: 100px;
+    position: absolute;
+    margin: 0px 0px 0px 315px;
+    font-size: 13px;
+    border-radius: 20%;
+    border-color: black;
+}
+.button5 {
+    background-color: #aaa795;
+    height: 23px;
+    width: 100px;
+    position: absolute;
+    margin: 0px 0px 0px 420px;
+    font-size: 13px;
+    border-radius: 20%;
+    border-color: black;
+}
+.button1:hover {
+    color: #fbb521;
+    background-color: black;
+}
+.button2:hover {
+    color: #fbb521;
+    background-color: black;
+}
+.button3:hover {
+    color: #fbb521;
+    background-color: black;
+}
+.button4:hover {
+    color: #fbb521;
+    background-color: black;
+}
+.button5:hover {
+    color: #fbb521;
+    background-color: black;
+}
+td {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    padding: 300px 50px 50px 50px;
+    margin: 300px 20px 20px 20px;
+    text-align: center;
+}
+.shirt {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -530px 20px 20px -70px;
+    position: absolute;
+}
+.shirt:hover {
+     background-color: #99ddff;
+    }
+.shirt1 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -530px 20px 260px 300px;
+    position: absolute;
+}
+.shirt1:hover {
+    background-color: #ffd699;
+ }
+.shirt2 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -530px 20px 260px 670px;
+    position: absolute;
+}
+.shirt2:hover {
+    background-color: #99ddff;
+ }
+.shirt3 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -530px 20px 260px 1040px;
+    position: absolute;
+}
+.shirt3:hover {
+    background-color: #ffd699;
+}
+.shirt4 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -100px 20px 260px -70px;
+    position: absolute;
+}
+.shirt4:hover {
+    background-color: #ffd699;
+}
+.shirt5 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -100px 20px 260px 300px;
+    position: absolute;
+}
+    .shirt5:hover {
+        background-color: #99ddff;
+    }
+.shirt6 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -100px 20px 260px 670px;
+    position: absolute;
+}
+.shirt6:hover {
+    background-color: #ffd699;
+}
+.shirt7 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: -100px 20px 260px 1040px;
+    position: absolute;
+}
+    .shirt7:hover {
+        background-color: #99ddff;
+    }
+.shirt8 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 330px 20px 260px -70px;
+    position: absolute;
+}
+    .shirt8:hover {
+        background-color: #99ddff;
+    }
+.shirt9 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 330px 20px 260px 300px;
+    position: absolute;
+}
+.shirt9:hover {
+    background-color: #ffd699;
+}
+.shirt10 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 330px 20px 260px 670px;
+    position: absolute;
+}
+    .shirt10:hover {
+        background-color: #99ddff;
+    }
+.shirt11 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 330px 20px 260px 1040px;
+    position: absolute;
+}
+.shirt11:hover {
+    background-color: #ffd699;
+}
+.shirt12 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 760px 20px 260px -70px;
+    position: absolute;
+}
+.shirt12:hover {
+    background-color: #ffd699;
+}
+.shirt13 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 760px 20px 260px 300px;
+    position: absolute;
+}
+    .shirt13:hover {
+        background-color: #99ddff;
+    }
+.shirt14 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 760px 20px 260px 670px;
+    position: absolute;
+}
+.shirt14:hover {
+    background-color: #ffd699;
+}
+.shirt15 {
+    height: 250px;
+    width: 250px;
+    padding: 40px 40px 100px 40px;
+    margin: 760px 20px 260px 1040px;
+    position: absolute;
+}
+    .shirt15:hover {
+        background-color: #99ddff;
+    }
+.boxX {
+   text-decoration: line-through;
+   text-decoration-color: red;
+   padding: 0px;
+   margin: -230px 20px 20px 70px;
+   position: absolute;
+   font-size: 20px;
+}
+.boxX1 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: -195px 20px 20px 75px;
+    position: absolute;
+    font-size: 20px;
+}
+.box2 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: -230px 20px 20px 440px;
+    position: absolute;
+    font-size: 20px;
+}
+.box21 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: -195px 20px 20px 445px;
+    position: absolute;
+    font-size: 20px;
+}
+.box3 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: -230px 20px 20px 810px;
+    position: absolute;
+    font-size: 20px;
+}
+.box31 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: -195px 20px 20px 815px;
+    position: absolute;
+    font-size: 20px;
+}
+.box4 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: -230px 20px 20px 1175px;
+    position: absolute;
+    font-size: 20px;
+}
+.box41 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: -195px 20px 20px 1180px;
+    position: absolute;
+    font-size: 20px;
+}
+.box5 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 200px 20px 20px 70px;
+    position: absolute;
+    font-size: 20px;
+}
+.box51 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 235px 20px 20px 75px;
+    position: absolute;
+    font-size: 20px;
+}
+.box6 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 200px 20px 20px 440px;
+    position: absolute;
+    font-size: 20px;
+}
+.box61 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 235px 20px 20px 445px;
+    position: absolute;
+    font-size: 20px;
+}
+.box7 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 200px 20px 20px 810px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box71 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 235px 20px 20px 815px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box8 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 200px 20px 20px 1175px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box81 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 235px 20px 20px 1180px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box9 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 630px 20px 20px 65px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box91 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 665px 20px 20px 65px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box10 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 630px 20px 20px 430px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box101 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 665px 20px 20px 430px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box11 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 630px 20px 20px 810px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box111 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 665px 20px 20px 810px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box12 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 630px 20px 20px 1175px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box121 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 665px 20px 20px 1175px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box13 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1070px 20px 20px 80px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box131 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1105px 20px 20px 85px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box14 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1070px 20px 20px 440px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box141 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1105px 20px 20px 445px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box15 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1070px 20px 20px 820px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box151 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1105px 20px 20px 825px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box16 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1070px 20px 20px 1185px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.box161 {
+    text-decoration-color: red;
+    padding: 0px;
+    margin: 1105px 20px 20px 1190px;
+    position: absolute;
+    font-size: 20px;
+}

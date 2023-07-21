@@ -1,0 +1,442 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+body {
+    font-family: Arial, 'Lato', sans-serif;
+    max-width: 1920px;
+}
+
+:root {
+    --background-color: #86dcff;
+    --btn1-background-color: #fefefc;
+}
+
+/* NAVIGATION */
+
+nav {
+    padding: 20px 50px;
+}
+
+#navspecial {
+    display: inline-block;
+    margin-top: -50px;
+    margin-left: 1320px;
+    position: absolute;
+   }
+
+.nav1 {
+    background-color: transparent;
+    border: unset;
+    font-size: 30px;
+    font-style: bold;
+    -webkit-text-stroke: 1px black;
+}
+
+#h3special {
+    font-size: 30px;
+    font-style: bold;
+    margin-left: 90px;
+}
+
+/* HEADER */
+
+ header {
+     background-color: var(--background-color);
+     display: flex;
+     max-width: 1920px;
+     height: 683px;
+     box-shadow: 0 0 10px 2px lightgrey;
+     border-top: 2px solid lightgrey;
+ }
+  
+ #flex01 {
+    width: 75%;
+    margin-left: 200px;
+ }
+
+ #flex02 {
+    width: 35%;
+    scale: 1.9;
+    margin-top: 210px;
+    margin-left: 50px;
+ }
+
+#h1spec1 {
+    font-size: 42px; 
+}
+
+.pspec {
+    font-size: 18px;
+}
+
+#btn1 {
+   border:1px solid black;
+   background-color: var(--btn1-background-color);
+   border-radius: 8px;
+   width: 300px;
+   height: 70px;
+   font-size: 20px;
+   -webkit-text-stroke: 1px black;
+}
+
+#btn2 {
+    border:1px solid black; 
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    -webkit-text-stroke: 1px white;
+}
+
+/* SECTION 1 */
+
+#section1 {
+    max-width: 1920px;
+    height: 683px;
+    padding: 30px;
+}
+
+#headspec {
+    text-align: center;
+    font-size: 20px;
+}
+
+.sec2p {
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+#flex1 {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+.flex11 {
+    width: 30%;
+}
+
+#speci {
+    color: var(--background-color);
+    scale:5;
+}
+
+/* SECTION 2 */
+
+#section2 {
+    background-color: var(--background-color);
+    max-width: 1920px;
+    height: 683px;
+    padding: 30px;
+}
+
+#sec2h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 24px;
+}
+
+#flex2 {
+    display: flex;
+    gap: 50px;
+    margin-left: 300px;
+}
+
+#flex221 {
+    width: 40%;
+}
+
+#flex222 {
+    width: 40%;
+}
+
+#btn3 {
+    border:1px solid black; 
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 770px;
+}
+
+/* SECTION 3 */
+
+#sec3h1 {
+    font-size: 42px;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+}
+
+#sec3p {
+    text-align: center;
+    gap:30px;
+}
+
+#flex3 {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    margin-left: 220px;
+    scale: 1.2;
+}
+
+.flex33 {
+    width: 20%;
+}
+
+
+/* SECTION 4 */
+
+#sec4h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec4div {
+    margin: 20px 250px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+
+#sec4color {
+    background-color: var(--background-color);
+    height: 50px;
+    padding: 20px;
+}
+
+.sec4pspec {
+    padding: 20px;
+}
+
+/* SECTION 5 */
+
+#sec5h1 {
+    font-size: 42px;
+}
+
+.sec5p {
+    font-size: 22px;
+}
+
+#input {
+    padding: 15px;
+    width: 250px;
+    height: 50px
+}
+
+#btn4 {
+    border:1px solid black; 
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    -webkit-text-stroke: 1px white;
+}
+
+#flex4 {
+    display: flex;
+    gap: 50px;
+}
+
+.flex44 {
+    width: 50%;
+}
+
+/* FOOTER */
+
+i {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    color: black;
+    font-size: 1.7rem;
+    padding: 0.3rem;
+}
+
+#media {
+    margin-left: 280px;
+    scale: 1.2;
+}
+
+#copy {
+    margin-left: 1600px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+/* =========================================================================================== */
+
+ /*Button 4*/
+ 
+ .button4 {
+    position: absolute;
+    top: 50px;
+    left: 850px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgb(10, 9, 9); /* shadow */
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    opacity:0.5;
+} 
+
+.button4 span {
+    background-color: #444849;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 4px 40px 4px 40px;
+    
+    color: black;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 28px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+
+     border-radius: 25%;
+}
+
+        .button4 span:hover {
+            color: red;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button4:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button4:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
+
+    .button4 span:after {
+        content: ">";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        right: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+     .button4 span:hover:after {
+            content: ">";
+            color: white; 
+     }
+
+        .button4 span:before {
+        content: "<";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        left: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+           .button4 span:hover:before {
+            content: "<";
+            color: white; 
+     }
+
+
+

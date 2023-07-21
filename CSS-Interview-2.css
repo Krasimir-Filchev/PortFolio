@@ -1,0 +1,1363 @@
+﻿body {
+    background-color: beige;  
+    background-repeat: no-repeat;
+    /*background-size: 1588px 862px;*/
+    position: absolute;
+}
+
+#h112 {
+   margin: -30px -100px;
+}
+
+h1 {
+    text-align: center;
+    border-radius: 25%;
+    color: black;
+    font-size: 50px;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    margin: 83px 0px 0px 500px;
+}
+h2 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    margin: 150px 0px 0px 635px;
+}
+
+h3 {
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    margin: 5px 0px 0px 700px;
+}
+
+
+#I {
+    font-family: Old English Text MT, Verdana, Arial;
+}
+#A {
+    font-family: Old English Text MT, Verdana, Arial;
+}
+
+.logo {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    margin: 90px 0px 0px 280px;
+    border-radius: 15%;
+}
+
+/* Main Dropdown Button */
+#dropbtn {
+    height: 50px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: block;
+    border: none;
+    letter-spacing: .10em;
+}
+
+/* Nested Dropdown Buttons */
+.dropdown-content .bdrop {
+    height: 35px;
+    width: 160px;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    font-size: 17px;
+    display: block;
+    border: none;
+
+}
+
+    /* Hover / Change the color of the Dropdown Buttons */
+    .dropdown-content .bdrop:hover {
+        height: 35px;
+        width: 160px;
+        background-color: darkorange;
+        color: white;
+        padding: 10px 15px;
+        font-size: 17px;
+        border: none;
+    }
+
+/* Div container*/
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    margin: 100px 0px 0px 1070px;
+}
+
+/* Dropdown Content / Hidden */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: darkred;
+    box-shadow: 0px 8px 16px 0p rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the Dropdown Menu on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* OLD CODE ====>>>>> Change the background color of the Dropdown Buttons 
+
+.dropdown:hover {
+    background-color: blue;
+    color: white;
+    padding: 10px 35px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    display: inline-block;
+    margin: 40px 0px 0px 1070px;
+}
+*/
+
+.hr1 {
+    width: 950px;
+    height: 40px;
+    background-color: deepskyblue;
+    border: none;
+    margin: -10px 0px 0px 280px;
+    opacity: 0.3;
+    /* position:absolute; */
+}
+
+#hr11 {
+    width: 950px;
+    height: 40px;
+    background-color: deepskyblue;
+    border: none;
+    margin: -1413px 0px 0px 280px;
+    opacity: 0.3;
+    position:absolute;
+}
+
+#hr12 {
+    width: 950px;
+    height: 40px;
+    background-color: deepskyblue;
+    border: none;
+    margin: -1462px 0px 0px 280px;
+    opacity: 0.3;
+    position:absolute;
+}
+
+/*  <== OLD CODE HR2 ==>
+
+.hr2 {
+    width: 950px;
+    height: 45px;
+    background-color: deepskyblue;
+    border: none;
+    margin: 180px 0px 0px 280px;
+}*/
+
+.hr3 {
+    width: 950px;
+    height: 3px;
+    background-color: darkorange;
+    border: none;
+    margin: 4270px 0px 0px 280px;
+}
+
+.hr4 {
+    width: 950px;
+    height: 3px;
+    background-color: darkorange;
+    border: none;
+    margin: 2650px 0px 0px 280px;
+}
+
+.hr5 {
+    width: 950px;
+    height: 3px;
+    background-color: darkorange;
+    border: none;
+    margin: 780px 0px 0px 280px;
+}
+
+.button5 {
+    background-color: darkorange;
+    height: 40px;
+    width: 175px;
+    position: absolute;
+    margin: 110px 0px 0px -242px;
+    padding: 10px 0px 0px 0px;
+    font-size: 22px;
+    border-radius: %;
+    border-color:;
+    color: white;
+    border: 2px solid white;
+    border-bottom: none;
+    border-top: none;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#bold {
+    font-weight: bolder !important;
+    font-size: 25px;
+}
+ 
+/* Bubble */
+
+.bubble {
+    height: 25px;
+    width: 250px;
+    position: absolute;
+    margin: 197px 0px 0px 720px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+    /*
+    .bubble:hover {
+        background-color: deepskyblue;
+        color: white;
+    }
+    */
+
+    .bubble:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 10px solid darkorange;
+        border-right: 10px solid transparent;
+        border-top: 10px solid darkorange;
+        border-bottom: 10px solid transparent;
+        right: 46px;
+        bottom: -20px;
+    }
+
+#regh1 {
+    height: 48px;
+    width: 120px;
+    background-color: white;
+    border-radius: 15px 0px 0px 15px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid darkorange;
+    border-right: none;
+    margin: -60px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#regh2 {
+    height: 48px;
+    width: 120px;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid darkorange;
+    border-left: none;
+    margin: -60px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#regh1:hover {
+    background-color: deepskyblue;
+    height: 48px;
+    width: 120px;
+    color: white;
+}
+
+#regh2:hover {
+    background-color: deepskyblue;
+    height: 48px;
+    width: 120px;
+    color: white;
+}
+
+/* Bubble2 */
+
+.bubble2 {
+    height: 25px;
+    width: 250px;
+    position: absolute;
+    margin: 197px 0px 0px 390px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+    /*
+    .bubble:hover {
+        background-color: deepskyblue;
+        color: white;
+    }
+    */
+
+    .bubble2:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid darkorange;
+        border-top: 10px solid darkorange;
+        border-bottom: 10px solid transparent;
+        left: 48px;
+        bottom: -20px;
+    }
+
+#pubh1 {
+    height: 48px;
+    width: 120px;
+    background-color: white;
+    border-radius: 15px 0px 0px 15px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid darkorange;
+    border-right: none;
+    margin: -60px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pubh2 {
+    height: 48px;
+    width: 120px;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid darkorange;
+    border-left: none;
+    margin: -60px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pubh1:hover {
+    background-color: deepskyblue;
+    height: 48px;
+    width: 120px;
+    color: white;
+}
+
+#pubh2:hover {
+    background-color: deepskyblue;
+    height: 48px;
+    width: 120px;
+    color: white;
+}
+
+.dleft {
+    background-color: deepskyblue;
+    height: 4400px;
+    width: 290px;
+    position: absolute;
+    margin: -100px 0px 0px -20px;
+    opacity: 0.3;
+}
+
+#dleft11 {
+    background-color: deepskyblue;
+    height: 1200px;
+    width: 290px;
+    position: absolute;
+    margin: -1450px 0px 0px -20px;
+    opacity: 0.3;
+}
+
+#dright11 {
+    background-color: deepskyblue;
+    height: 1200px;
+    width: 290px;
+    position: absolute;
+    margin: -1450px 0px 0px 1240px;
+    opacity: 0.3;
+}
+
+#dleft12 {
+    background-color: deepskyblue;
+    height: 1200px;
+    width: 290px;
+    position: absolute;
+    margin: -1470px 0px 0px -20px;
+    opacity: 0.3;
+}
+
+#dright12 {
+    background-color: deepskyblue;
+    height: 1200px;
+    width: 290px;
+    position: absolute;
+    margin: -1470px 0px 0px 1240px;
+    opacity: 0.3;
+}
+
+.dleft2 {
+    background-color: deepskyblue;
+    height: 2780px;
+    width: 290px;
+    position: absolute;
+    margin: -100px 0px 0px -20px;
+    opacity: 0.3;
+}
+
+.dleft3 {
+    background-color: deepskyblue;
+    height: 950px;
+    width: 290px;
+    position: absolute;
+    margin: -100px 0px 0px -20px;
+    opacity: 0.3;
+}
+
+.dright {
+    background-color: deepskyblue;
+    height: 4400px;
+    width: 290px;
+    position: absolute;
+    margin: -100px 0px 0px 1240px;
+    opacity: 0.3;
+}
+
+.dright2 {
+    background-color: deepskyblue;
+    height: 2780px;
+    width: 290px;
+    position: absolute;
+    margin: -100px 0px 0px 1240px;
+    opacity: 0.3;
+}
+
+.dright3 {
+    background-color: deepskyblue;
+    height: 950px;
+    width: 290px;
+    position: absolute;
+    margin: -100px 0px 0px 1240px;
+    opacity: 0.3;
+}
+
+.BG {
+    height: 30px;
+    width: 50px;
+    margin: 260px 0px 0px 1050px;
+    position: absolute;
+    border: solid 1px orange;
+    /*background-image: url('BG.jpg');*/
+}
+
+.UK {
+    height: 30px;
+    width: 50px;
+    margin: 260px 0px 0px 1105px;
+    position: absolute;
+    border: solid 1px orange;
+}
+
+img {
+    border: 0;
+}
+
+/*
+.loginC {
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    margin: 400px 0px 0px 650px;
+    color: red;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+*/
+
+.loginC {
+    height: 180px;
+    width: 160px;
+    position: absolute;
+    margin: 60px 0px 0px 1065px;
+    color: black;
+    background-color: deepskyblue;
+    font-size: 16px;
+    /*font-style: italic;*/
+    /*visibility: hidden;*/
+    border-radius: 10%;
+    display: none;
+    border: solid 4px orange;
+}
+
+.loginF {
+    height: 180px;
+    width: 160px;
+    position: absolute;
+    margin: 60px 0px 0px 1065px;
+    color: black;
+    background-color: deepskyblue;
+    font-size: 16px;
+    /*font-style: italic;*/
+    /*visibility: hidden;*/
+    border-radius: 10%;
+    display: none;
+    border: solid 4px orange;
+}
+
+.h1Customers {
+    text-align: center;
+    font-weight: bold;
+}
+
+#user-username {
+    font-style: italic;
+    color: grey;
+    height: 15px;
+    width: 110px;
+}
+
+#user-password {
+    font-style: italic;
+    color: grey;
+    height: 15px;
+    width: 110px;
+}
+
+
+/*
+#Jdemo2.closed:after {
+    content: "\33";
+}
+
+#Jdemo2.opened:after {
+    content: "\24";
+}
+*/
+
+#show {
+    margin: 360px 0px 0px 670px;
+    position: absolute;
+    background-color: red;
+}
+
+#regz{
+    font-size: 22px;
+}
+
+#regs {
+    margin: 315px 0px 0px 400px;
+    position: absolute;
+    background-color: #66d9ff;
+    width: 700px;
+    height: 485px;
+    border-radius: 2%;
+    opacity: 0.8;
+}
+
+/*    === Color Scheme ===
+#99ceff
+
+#66d9ff
+*/
+
+#reg-PName {
+    font-style: italic;
+    font-weight: bold;
+    width: 220px;
+}
+
+#reg-FName {
+    font-style: italic;
+    font-weight: bold;
+    width: 220px;
+}
+
+#reg-Email {
+    font-style: italic;
+    font-weight: bold;
+    width: 220px;
+}
+
+#reg-EmailC {
+    font-style: italic;
+    font-weight: bold;
+    width: 220px;
+}
+
+#reg-Pass {
+    font-style: italic;
+    font-weight: bold;
+    width: 220px;
+}
+
+#reg-PassC {
+    font-style: italic;
+    font-weight: bold;
+    width: 220px;
+}
+
+#PExplanation {
+    font-style: italic;
+    width: 220px;
+
+}
+
+#country {
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    height: 25px;
+    background-color: white;
+}
+
+#levels {
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    height: 25px;
+    background-color: white;
+}
+
+.HSearch1 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.selectBox {
+    width: 250px;
+}
+
+.selecBox2 {
+    width: 250px;
+}
+
+.selecBox3 {
+    width: 250px;
+}
+
+.selecBox4 {
+    width: 250px;
+}
+
+#checkboxes {
+    width: 250px;
+    color: black;
+}
+
+#checkboxes2 {
+    width: 250px;
+}
+
+#checkboxes3 {
+    width: 250px;
+    white-space: nowrap;
+}
+
+#checkboxes4 {
+    width: 250px;
+    white-space: nowrap;
+}
+
+
+/*  == Checkboxes inside select / dropdown menu ==  */
+.multiselect {
+    width: 200px;
+}
+
+.selectBox {
+    position: relative;
+}
+
+    .selectBox select {
+        width: 100%;
+        font-weight: bold;
+    }
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+
+    #checkboxes label {
+        display: block;
+    }
+
+        #checkboxes label:hover {
+            background-color: #1e90ff;
+        }
+
+/* The Whole Search Menu */
+
+#search {
+    margin: 315px 0px 0px 400px;
+    position: absolute;
+    background-color: #66d9ff;
+    width: 700px;
+    height: 3970px;
+    border-radius: 2%;
+    opacity: 0.8;
+}
+
+#search2 {
+    margin: 315px 0px 0px 400px;
+    position: absolute;
+    background-color: #66d9ff;
+    width: 700px;
+    height: 2350px;
+    border-radius: 2%;
+    opacity: 0.8;
+}
+
+/* Submission Buttons */
+
+#sub1 {
+    color: white;
+    background-color: red;
+}
+
+#sub2 {
+    color: white;
+    background-color: red !important;
+}
+
+#sub3 {
+    color: white;
+    background-color: deepskyblue;
+    height: 40px;
+    width: 130px;
+    font-size: 22px;
+    outline: none;
+    border-radius: 15px;
+}
+
+#sub4 {
+    color: black;
+    background-color: deepskyblue;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+#sub5 {
+    color: white;
+    background-color: deepskyblue;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+
+/* Progress Bar TEST 3*/
+
+#Progress_Status3 {
+    width: 350px;
+    position: fixed !important;
+    margin: 360px 0px 0px 730px;
+    background-color: darkorange;
+    border: -10px solid darkorange !important;
+    border-radius: 5px;
+}
+
+#myprogressBar3 {
+    width: 0%;
+    max-width: 350px !important;
+    height: 27px !important;
+    background-color: deepskyblue;
+    text-align: left !important;
+    line-height: 27px;
+    color: black;
+    border: -10px solid darkorange !important;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#center2 {
+    text-align: center !important;
+}
+
+#pr3 {
+    width: 100px;
+    height: 17px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color: none;
+    margin: 335px 0px 0px 850px;
+    position: fixed !important;
+}
+
+.line {
+    width: 350px;
+}
+
+.stripesLoader {
+    margin: 0px;
+    height: 24px !important;
+    /*should not be larger than 20px*/
+    position: relative;
+    background: linear-gradient(90deg, #eee 50%, transparent 50%);
+    background-color: crimson;
+    background-size: 200%;
+    background-position: 100% !important;
+    border-radius: 1px;
+    transform: scale(-1);
+    transition: 0.3s;
+}
+
+.stripesLoader:before {
+    content: "";
+    position: relative;
+    width: 90% !important;
+    height: 100%;
+    border-radius: 1px;
+    background: linear-gradient( 45deg, transparent 25%, rgba(238, 238, 238, 0.5) 25%, rgba(238, 238, 238, 0.5) 30%, transparent 30%, transparent 35%, rgba(238, 238, 238, 0.5) 35%, rgba(238, 238, 238, 0.5) 70%, transparent 70% );
+    animation: shift 2s linear infinite;
+    background-size: 60px 100%;
+    box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.2), inset 0 -2px 1px rgba(0, 0, 0, 0.2);
+    padding: 0px 20px 0px 0px;
+}
+
+@keyframes shift {
+    to {
+        background-position: 60px 100%;
+    }
+}
+
+
+
+/* Progress Bar Test / Stripped */
+
+#Bar4 {
+    margin: 3000px 0px 0px 340px;
+}
+
+.line {
+    width: 200px;
+}
+
+.stripesLoader {
+    margin: 4px;
+    height: 20px;
+    /*should not be larger than 20px*/
+    position: relative;
+    background: linear-gradient(90deg, #eee 50%, transparent 50%);
+    background-color: crimson;
+    background-size: 200%;
+    background-position: 80%;
+    border-radius: 5px;
+    transform: scale(-1);
+    transition: 0.3s;
+}
+
+    .stripesLoader:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background: linear-gradient( 45deg, transparent 25%, rgba(238, 238, 238, 0.5) 25%, rgba(238, 238, 238, 0.5) 30%, transparent 30%, transparent 35%, rgba(238, 238, 238, 0.5) 35%, rgba(238, 238, 238, 0.5) 70%, transparent 70% );
+        animation: shift 2s linear infinite;
+        background-size: 60px 100%;
+        box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.2), inset 0 -2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+@keyframes shift {
+    to {
+        background-position: 60px 100%;
+    }
+}
+
+
+/* == Animated BUTTON 1 == */
+
+a.button1 {
+    background-color: deepskyblue;
+    height: 40px;
+    width: 135px;
+    position: absolute;
+    text-align: center;
+    margin: 110px 0px 0px -790px;
+    padding: 10px 0px 0px 0px;
+    font-size: 22px;
+    color: black;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    border-right: none;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    0s;
+}
+
+
+a.button1:hover {
+    color: white !important;
+    background-color: transparent;
+    text-shadow: nthree;
+    border-radius: 15px 0px 0px 15px;
+}
+
+a.button1:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+a.button1:before {
+    display: block;
+    position: absolute;
+    border-radius: 15px 0px 0px 15px;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: darkorange;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    0s;
+}
+
+/* == Animated BUTTON 1 == */
+
+a.button1 {
+    background-color: deepskyblue;
+    height: 40px;
+    width: 135px;
+    position: absolute;
+    text-align: center;
+    margin: 110px 0px 0px -790px;
+    padding: 10px 0px 0px 0px;
+    font-size: 22px;
+    color: black;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    border-right: none;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    0s;
+}
+
+
+    a.button1:hover {
+        color: white !important;
+        background-color: transparent;
+        text-shadow: nthree;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+        a.button1:hover:before {
+            left: 0%;
+            right: auto;
+            width: 100%;
+            border-radius: 15px 0px 0px 15px;
+        }
+
+    a.button1:before {
+        display: block;
+        position: absolute;
+        border-radius: 15px 0px 0px 15px;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        width: 0px;
+        z-index: -1;
+        content: '';
+        color: #000 !important;
+        background: darkorange;
+        transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+        0s;
+    }
+
+/* == Animated BUTTON 2 == */
+
+a.button2 {
+    background-color: deepskyblue;
+    height: 40px;
+    width: 135px;
+    position: absolute;
+    text-align: center;
+    margin: 110px 0px 0px -652px;
+    padding: 10px 0px 0px 0px;
+    font-size: 22px;
+    color: black;
+    border: none;
+    border-right: none;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    0s;
+}
+
+
+    a.button2:hover {
+        color: white !important;
+        background-color: transparent;
+        text-shadow: nthree;
+    }
+
+        a.button2:hover:before {
+            left: 0%;
+            right: auto;
+            width: 100%;
+        }
+
+    a.button2:before {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        width: 0px;
+        z-index: -1;
+        content: '';
+        color: #000 !important;
+        background: darkorange;
+        transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+        0s;
+    }
+
+/* == Animated BUTTON 3 == */
+
+a.button3 {
+    background-color: deepskyblue;
+    height: 40px;
+    width: 135px;
+    position: absolute;
+    text-align: center;
+    margin: 110px 0px 0px -514px;
+    padding: 10px 0px 0px 0px;
+    font-size: 22px;
+    color: black;
+    border: none;
+    border-right: none;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    0s;
+}
+
+
+    a.button3:hover {
+        color: white !important;
+        background-color: transparent;
+        text-shadow: nthree;
+    }
+
+        a.button3:hover:before {
+            left: 0%;
+            right: auto;
+            width: 100%;
+        }
+
+    a.button3:before {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        width: 0px;
+        z-index: -1;
+        content: '';
+        color: #000 !important;
+        background: darkorange;
+        transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+        0s;
+    }
+
+/* == Animated BUTTON 4 == */
+
+a.button4 {
+    background-color: deepskyblue;
+    height: 40px;
+    width: 135px;
+    position: absolute;
+    text-align: center;
+    margin: 110px 0px 0px -377px;
+    padding: 10px 0px 0px 0px;
+    font-size: 22px;
+    color: black;
+    border: none;
+    border-right: none;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    0s;
+}
+
+
+    a.button4:hover {
+        color: white !important;
+        background-color: transparent;
+        text-shadow: nthree;
+    }
+
+        a.button4:hover:before {
+            left: 0%;
+            right: auto;
+            width: 100%;
+        }
+
+    a.button4:before {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        width: 0px;
+        z-index: -1;
+        content: '';
+        color: #000 !important;
+        background: darkorange;
+        transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+        0s;
+    }
+
+
+    #text1 {
+        width: 650px;
+        height: 450px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    #text2 {
+        width: 650px;
+        height: 450px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    #text3 {
+        width: 430px;
+        height: 250px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    #browse {
+        width: 200px;
+        height: 200px;
+    }
+
+    .CV {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    /* =========================================================================================== */
+
+ /*Button 4*/
+ 
+ .button44 {
+    position: absolute;
+    top: 35px;
+    left: 650px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgb(10, 9, 9); /* shadow */
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    opacity:0.5;
+} 
+
+.button44 span {
+    background-color: #444849;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 4px 40px 4px 40px;
+    
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 28px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+
+     border-radius: 25%;
+}
+
+        .button44 span:hover {
+            color: red;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button44:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button44:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
+
+    .button44 span:after {
+        content: ">";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        right: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+     .button44 span:hover:after {
+            content: ">";
+            color: white; 
+     }
+
+        .button44 span:before {
+        content: "<";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        left: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+           .button44 span:hover:before {
+            content: "<";
+            color: white; 
+     }
+
+     /* =============================================================== */
+
+     #middle {
+        margin: 400px 500px;
+        max-width: 500px;
+        /* border: 5px solid red; */
+     }
+
+     h3 {
+        margin-top: -40px;
+        margin-left: 180px;
+        font-size: 34px;
+     }
+     
+     p {
+        font-size: 16px;
+     }
+
+     footer { 
+        margin: -4120px 220px;
+     }
+
+     #hr3 {
+        margin: -50px 70px;
+     }
+
+     #h33 {
+        font-size: 14px;
+        margin: 0px 0px;
+     }
+
+
+
+
+
+
+
+
+

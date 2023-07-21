@@ -1,0 +1,909 @@
+﻿@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+.friend {
+    display: inline-block;
+	margin-left: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 130px;
+	width: 130px;
+	border-radius: 100%;
+	border: 5px solid black;
+}
+.friend:hover {
+    display: inline-block;
+	margin-left: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 130px;
+	width: 130px;
+	border-radius: 100%;
+	border: 2px dashed white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Old English Text MT, Verdana, Arial;
+    font-size: 50px;
+    background-color: #a9c2d6;
+    opacity: 0.7;
+    width: 25%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 700px;
+    border: 2px solid black;
+    /* box-shadow: 0 0 95px 8px #333333; */
+}
+
+h1:hover {
+    border: 2px dashed red;
+}
+
+/* .h1span {
+    color: #a9c2d6;
+} */
+
+h2 {
+    text-align: center;
+    font-family: Old English Text MT, Verdana, Arial;
+    color: #f0cead;
+    font-size: 30px;
+	position: static;
+}
+h3 {
+   text-align: center;
+   font-size: 30px;
+   position: static;
+   color: #a9c2d6;
+}
+h4 {
+   text-align: center;
+   position: static;
+   color: black;
+   font-size: 35px;
+   margin-top: -5px;
+   
+}
+
+#spech4 {
+    background-color: #a9c2d6;
+    opacity: 0.6;
+    width: 40%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 560px;
+    border: 2px solid black;
+}
+
+h5 {
+    text-align: center;
+    position: static;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+body {
+    background-color: grey;
+    background-image: url('Pictures/Saturn3.jpg');
+    background-repeat: no-repeat;
+	background-size: 1900px 1500px;
+	position: static;
+}
+
+section {
+    margin-left: 130px;
+    margin-top: -10px;
+}
+
+.header {
+    margin-top: -40px;
+}
+
+div .logo {
+	 border: 5px solid black;
+	 background-color: black;
+	 opacity: 2;
+	 height: 25px;
+	 width: 50px;
+	 background-image: url('Logo15.jpg');
+}
+
+#logo {
+    margin-top: -120px;
+    margin-left: 20px;
+    opacity: 0.6;
+    height: 100px;
+    width: 100px;
+}
+
+span {
+    color: black;   
+}
+hr {
+    width: 1-00px;
+    height: 70px;
+    background-color: black;
+    border-color: transparent;
+	opacity: 0.5;
+    margin-top: -10px;
+}
+#K {
+    color: red;
+}
+#F {
+    color: red;
+}
+.friend {
+    border: 2px solid black;
+}
+.family {
+    border: 2px solid black;
+}
+.enemy {
+    border: 2px solid black;
+}
+#archnemesis {
+    border: 2px solid black;
+}
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border : 0;
+}
+a img {
+    outline : none;
+}
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: white;
+  opacity: 0.3;
+  border-radius: 20%;
+  background-color: black;
+  position: static;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  position: static;
+}
+
+#pagegradient {
+  background-image:
+        -webkit-gradient(
+            radial, 
+            50% -50, 
+            300, 
+            50% 0, 
+            0, 
+            from(rgba(230, 237, 241, 0)), 
+            to(rgba(230, 237, 241, 0.8)));
+    
+  height:100%;
+  left:0px;
+  position:absolute;
+  top:0;
+  width: 600px;
+}
+
+/*Button 1*/
+.button {
+    position: absolute;
+    top: 10px;
+    left: 680px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgb(10, 9, 9); /* shadow */
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    opacity:0.5;
+} 
+
+.button span {
+    background-color: #444849;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 4px 40px 4px 40px;
+    
+    color: black;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 28px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+
+     border-radius: 25%;
+}
+
+        .button span:hover {
+            color: red;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
+
+    .button span:after {
+        content: ">";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        right: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+     .button span:hover:after {
+            content: ">";
+            color: white; 
+     }
+
+        .button span:before {
+        content: "<";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        left: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+           .button span:hover:before {
+            content: "<";
+            color: white; 
+     }
+
+/*Button 2*/
+
+.button2 {
+    position: absolute;
+    top: 10px;
+    left: 869px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgb(10, 9, 9); /* shadow */
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    opacity:0.5;
+} 
+
+.button2 span {
+    background-color: #444849;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 4px 40px 4px 40px;
+    
+    color: black;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 28px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+
+     border-radius: 25%;
+}
+
+        .button2 span:hover {
+            color: red;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button2:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button2:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
+
+    .button2 span:after {
+        content: ">";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        right: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+     .button2 span:hover:after {
+            content: ">";
+            color: white; 
+     }
+
+        .button2 span:before {
+        content: "<";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        left: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+           .button2 span:hover:before {
+            content: "<";
+            color: white; 
+     }
+
+/*Button 3*/
+.button3 {
+    position: absolute;
+    top: 10px;
+    left: 1060px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgb(10, 9, 9); /* shadow */
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    opacity:0.5;
+} 
+
+.button3 span {
+    background-color: #444849;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 4px 40px 4px 40px;
+    
+    color: black;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 28px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+
+     border-radius: 25%;
+}
+
+        .button3 span:hover {
+            color: red;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button3:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button3:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
+
+    .button3 span:after {
+        content: ">";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        right: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+     .button3 span:hover:after {
+            content: ">";
+            color: white; 
+     }
+
+        .button3 span:before {
+        content: "<";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        left: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+           .button3 span:hover:before {
+            content: "<";
+            color: white; 
+     }
+
+/*Button 4*/
+
+.button4 {
+    position: absolute;
+    top: 10px;
+    left: 1250px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgb(10, 9, 9); /* shadow */
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    opacity:0.5;
+} 
+
+.button4 span {
+    background-color: #444849;
+    
+    background-image: 
+        /* gloss gradient */
+        -webkit-gradient(
+            linear, 
+            left bottom, 
+            left top, 
+            color-stop(50%,rgba(255,255,255,0)), 
+            color-stop(50%,rgba(255,255,255,0.3)), 
+            color-stop(100%,rgba(255,255,255,0.2))),
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+        /* diagonal line pattern */
+        -webkit-gradient(
+            linear, 
+            0% 100%, 
+            100% 0%, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(40%,rgba(255,255,255,0)), 
+            color-stop(40%,#D2D2D1), 
+            color-stop(60%,#D2D2D1), 
+            color-stop(60%,rgba(255,255,255,0)), 
+            color-stop(100%,rgba(255,255,255,0)));
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 4px 40px 4px 40px;
+    
+    color: black;
+    text-transform: uppercase;
+    font-family: 'TradeGothicLTStd-BdCn20','PT Sans Narrow';
+    font-weight: 700;
+    font-size: 28px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+
+     border-radius: 25%;
+}
+
+        .button4 span:hover {
+            color: red;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button4:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button4:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
+
+    .button4 span:after {
+        content: ">";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        right: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+     .button4 span:hover:after {
+            content: ">";
+            color: white; 
+     }
+
+        .button4 span:before {
+        content: "<";
+        display: block;
+        width: 10px;
+        height: 10px;
+    
+        position: absolute;
+        left: 14px;
+        top: 5px;    
+        
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: red;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        font-size: 26px;
+    }
+
+           .button4 span:hover:before {
+            content: "<";
+            color: white; 
+     }
+
+#help {
+    font-size: 20px;
+    color: #a9c2d6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD Button CODE I use 
+.button {
+     color: red ;
+     float: right;
+     display: inline-block;
+     width: 50px;
+     height: 30px;
+     border-color: #f5f5ef;
+     background-color: #f5f5ef;
+     border-radius: 25%;
+     margin: -45px 330px 00px 510px;
+}
+.button:hover {
+     border-color: black;
+    }
+.button1 {
+     float: right;
+     display: inline-block;
+     width: 60px;
+     height: 30px;
+     border-color: #f5f5ef;
+     background-color: #f5f5ef;
+     border-radius: 25%;
+     margin: -45px 260px 00px 570px;
+}
+.button1:hover {
+     border-color: red;
+    }
+.button2 {
+     color: red;
+     float: right;
+     display: inline-block;
+     width: 60px;
+     height: 30px;
+     border-color: #f5f5ef;
+     background-color: #f5f5ef;
+     border-radius: 25%;
+     margin: -45px 190px 00px 640px;
+    }
+.button2:hover {
+     border-color: black;
+    }
+.button3 {
+     float: right;
+     display: inline-block;
+     width: 100px;
+     height: 30px;
+     border-color: #f5f5ef;
+     background-color: #f5f5ef;
+     border-radius: 25%;
+     margin: -45px 80px 00px 710px;
+    }
+.button3:hover {
+     border-color: red;
+    }
+.button4 {
+     color: red;
+     float: right;
+     display: inline-block;
+     width: 60px;
+     height: 30px;
+     border-color: #f5f5ef;
+     background-color: #f5f5ef;
+     border-radius: 25%;
+     margin: -45px 10px 00px 820px;
+    }
+.button4:hover {
+     border-color: black;
+    }
+
+
+
+*/
+
+
