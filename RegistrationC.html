@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="CSS-Interview-2.css" />
+    <script type="text/javascript" src="./lib/jquery-3.4.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JS-IA.js"></script>
+
+    <title>Interview Agency</title>
+    <a href="INDEX.html" class="button44">
+        <span>back</span>
+    </a>
+    <h1><span id="I">I</span><em>nterview</em>&nbsp;<span id="A">A</span><em>gency</em></h1>
+    <h2><em>Set your own expectations</em></h2>
+</head>
+<div class="header">
+    <img src="TestLogo73.jpg" alt="logo" class="logo" />
+</div>
+<body>
+
+    <div class="dropdown">
+        <button id="dropbtn">Вход</button>
+        <div class="dropdown-content">
+            <button class="bdrop" id="Jdemo1"> >  Фирми</button>
+            <button class="bdrop" id="Jdemo2"> >  Потребители</button>
+        </div>
+
+        <div class="buttons">
+
+            <div>
+                <a href="SearchS.html" class="button1" style="text-decoration:none">Търсене</a>
+            </div>
+            <div>
+                <a href="PublishC.html" class="button2" style="text-decoration:none">Публикуване</a>
+            </div>
+            <div>
+                <a href="#" class="button3" style="text-decoration:none">Услуги</a>
+            </div>
+            <div>
+                <a href="INDEX-Interview-2.html" class="button4" style="text-decoration:none">За нас</a>
+            </div>
+            <div>
+                <a href="#" class="button5" style="text-decoration:none"><span id="bold">&nbsp +</span> Регистрация</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bubble">
+        <a href="RegistrationF.html" style="text-decoration:none;"><button id="regh1">Фирми</button></a><a href="RegistrationC.html" style="text-decoration:none;"><button id="regh2">Потребители</button></a>
+    </div>
+
+    <div>
+        <a href="INDEX-Interview-2.html" style="text-decoration:none"><img src="BG.jpg" alt="BG Flag" class="BG" /></a>
+    </div>
+    <div>
+        <a href="INDEX-Interview-2-EN.html" style="text-decoration:none"><img src="UK.jpg" alt="UK Flag" class="UK" /></a>
+    </div>
+
+    <div class="loginC" id="loginC">
+        <form id="user2">
+            <p class="h1Customers">Вход Потребители</p>
+            <!--    <label for="user-username">&nbsp&nbsp&nbsp  Имейл:*</label>   -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="user-username" name="user-username" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <br />
+        <form>
+            <!--    <label for="user-password">&nbsp&nbsp&nbsp  Парола:*</label>     -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="user-password" name="user-password" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="remember me" name="remember me" value="запомни ме" />
+            <label for="remember me">запомни ме</label>
+        </form>
+        <br />
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Вход" />
+        </form>
+    </div>
+
+    <div class="loginF" id="loginF">
+        <form id="user1">
+            <p class="h1Customers">Вход Фирми</p>
+            <!--    <label for="user-username">&nbsp&nbsp&nbsp  Имейл:*</label>   -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="user-username" name="user-username" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <br />
+        <form>
+            <!--    <label for="user-password">&nbsp&nbsp&nbsp  Парола:*</label>     -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="user-password" name="user-password" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="remember me2" name="remember me" value="запомни ме" />
+            <label for="remember me2">запомни ме</label>
+        </form>
+        <br />
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Вход" />
+        </form>
+    </div>
+
+    <br />
+    <form id="regs">
+        <fieldset>
+            <br />
+            <legend id="regz">&nbsp&nbsp&nbsp&nbsp&nbspРегистрация Потребители&nbsp&nbsp&nbsp&nbsp&nbsp</legend>
+            <br />
+
+            <br />
+            <!--  == Simple dropdown menu Publish == -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-PName" value="Име.....*" onfocus="this.value=''" onclick="update19()" />
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-FName" value="Фамилия....*" onfocus="this.value=''" onclick="update20()" />
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label>На зададения имейл адрес ще получите имейл за потвърждение</label>
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-Email" value="Имейл....*" onfocus="this.value=''" onclick="update21()" />
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-EmailC" value="Потвърдете имейла....*" onfocus="this.value=''" onclick="update22()" />
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="reg-Pass" value="Password....*" onfocus="this.value=''" onclick="update23()" />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label id="PExplanation">(Паролата трябва да бъде минимум 10 символа и да включва цифри, букви и специални символи)</label>
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="reg-PassC" value="Password....*" onfocus="this.value=''" onclick="update24()" />
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="TermsC" onclick="update25()" />
+            <label>Съгласен съм с <a href="#">Условията за ползване</a></label>
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="submit" value="Регистрация" />
+            <br />
+        </fieldset>
+    </form>
+
+    <!-- == Progress Bar in Words TEST == -->
+
+    <div id="pr3">
+        <label>Прогрес</label>
+    </div>
+
+    <!-- == Progress Bar in % TEST == -->
+
+    <div id="Progress_Status3">
+        <div id="myprogressBar3" class="line stripesLoader"><div id="center2">0%</div></div>
+    </div>
+
+    <hr class="hr1" />
+    <!--   <hr class="hr2" />   -->
+
+    <div class="dleft3"></div>
+    <div class="dright3"></div>
+
+</body>
+<!-- <footer>
+    <hr class="hr5" />
+    <h3><em>Условия за ползване</em></h3>
+</footer> -->
+</html>

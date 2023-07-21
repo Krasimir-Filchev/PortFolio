@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D082B292-3AFC-4C49-BD1F-ECE81E4D585E}"
+	ProjectSection(SolutionItems) = preProject
+		About me.css = About me.css
+		About me.html = About me.html
+		CSS INDEX.css = CSS INDEX.css
+		INDEX.html = INDEX.html
+		JS INDEX.js = JS INDEX.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "History", "History", "{41D38A18-19D1-4114-BEF0-341DBDF74E74}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-History.css = CSS-History.css
+		INDEX-History.html = INDEX-History.html
+		Page1.html = Page1.html
+		Page2.html = Page2.html
+		Page3.html = Page3.html
+		Page4.html = Page4.html
+		Page5.html = Page5.html
+		Page6.html = Page6.html
+		Page7.html = Page7.html
+		Page8.html = Page8.html
+		Page9.html = Page9.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BEST T-Shirts", "BEST T-Shirts", "{EF3290AE-9D14-445F-9254-09B4468EA60F}"
+	ProjectSection(SolutionItems) = preProject
+		CSS T-shirts.css = CSS T-shirts.css
+		INDEX-Tshirts.html = INDEX-Tshirts.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41D38A18-19D1-4114-BEF0-341DBDF74E74} = {D082B292-3AFC-4C49-BD1F-ECE81E4D585E}
+		{EF3290AE-9D14-445F-9254-09B4468EA60F} = {D082B292-3AFC-4C49-BD1F-ECE81E4D585E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF3021E6-4B8C-45F0-BD4A-9F3830BDFF2F}
+	EndGlobalSection
+EndGlobal

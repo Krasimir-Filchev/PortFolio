@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="CSS-Interview.css" />
+    <script type="text/javascript" src="./lib/jquery-3.4.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JS-IA.js"></script>
+
+    <!--  == hide Registration Form ==  -->
+
+    <script>
+        $(document).ready(function () {
+            $('#Jdemo2').click(function () {
+                $('.loginC').toggle('show');
+                $('.bdrop').toggle('hide');
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#Jdemo1').click(function () {
+                $('.loginF').toggle('show');
+                $('.bdrop').toggle('hide');
+            });
+        });
+    </script>
+
+    <!--  == show Bubble ==  -->
+
+    <script>
+        $(document).ready(function () {
+            $('.button5').click(function () {
+                $('.bubble').toggle('show');
+            });
+        });
+    </script>
+
+    <!--  == Checkboxes inside select / dropdown menu ==  -->
+    <script>
+        var expanded = false;
+
+        function showCheckboxes() {
+            var checkboxes = document.getElementById("checkboxes");
+            if (!expanded) {
+                checkboxes.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+    <!--  == Checkboxes inside select / dropdown menu 2 ==  -->
+
+    <script>
+        var expanded2 = false;
+
+        function showCheckboxes2() {
+            var checkboxes2 = document.getElementById("checkboxes2");
+            if (!expanded) {
+                checkboxes2.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes2.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+    <!--  == Checkboxes inside select / dropdown menu 3 ==  -->
+
+    <script>
+        var expanded3 = false;
+
+        function showCheckboxes3() {
+            var checkboxes3 = document.getElementById("checkboxes3");
+            if (!expanded) {
+                checkboxes3.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes3.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+    <!--  == Checkboxes inside select / dropdown menu 4 ==  -->
+
+    <script>
+        var expanded4 = false;
+
+        function showCheckboxes4() {
+            var checkboxes4 = document.getElementById("checkboxes4");
+            if (!expanded) {
+                checkboxes4.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes4.style.display = "none";
+                expanded = false;
+            }
+        }
+    </script>
+
+
+
+    <script>
+
+        function update() {
+            var element = document.getElementById("myprogressBar");
+            var width = 1;
+            var identity = setInterval(scene, 10);
+            function scene() {
+                if (width >= 100) {
+                    clearInterval(identity);
+                } else {
+                    width++;
+                    element.style.width = width + '%';
+                    element.innerHTML = width * 1 + '%';
+                }
+            }
+        }
+
+    </script>
+
+
+
+    <title>Interview Agency</title>
+    <h1><span id="I">I</span>nterview <span id="A">A</span>gency</h1>
+    <h2><em>Set your own expectations</em></h2>
+</head>
+<div class="header">
+    <img src="TestLogo73.jpg" alt="logo" class="logo" />
+</div>
+<body>
+
+    <div class="dropdown">
+        <button id="dropbtn">Вход</button>
+        <div class="dropdown-content">
+            <button class="bdrop" id="Jdemo1"> >  Фирми</button>
+            <button class="bdrop" id="Jdemo2"> >  Потребители</button>
+        </div>
+
+        <div class="buttons">
+
+            <div>
+                <a href="SearchS.html" class="button1" style="text-decoration:none">Търсене</a>
+            </div>
+            <div>
+                <a href="PublishC.html" class="button2" style="text-decoration:none">Публикуване</a>
+            </div>
+            <div>
+                <a href="#" class="button3" style="text-decoration:none">Услуги</a>
+            </div>
+            <div>
+                <a href="#" class="button4" style="text-decoration:none">За нас</a>
+            </div>
+            <div>
+                <a href="#" class="button5" style="text-decoration:none"><span id="bold">&nbsp +</span> Регистрация</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bubble">
+        <a href="RegistrationF.html" style="text-decoration:none;"><button id="regh1">Фирми</button></a><a href="RegistrationC.html" style="text-decoration:none;"><button id="regh2">Потребители</button></a>
+    </div>
+
+    <div>
+        <a href="TOP.html" style="text-decoration:none"><img src="BG.jpg" alt="BG Flag" class="BG" /></a>
+    </div>
+    <div>
+        <a href="TOP.html" style="text-decoration:none"><img src="UK.jpg" alt="UK Flag" class="UK" /></a>
+    </div>
+
+    <div class="loginC" id="loginC">
+        <form id="user2">
+            <p class="h1Customers">Вход Потребители</p>
+            <!--    <label for="user-username">&nbsp&nbsp&nbsp  Имейл:*</label>   -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="user-username" name="user-username" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <br />
+        <form>
+            <!--    <label for="user-password">&nbsp&nbsp&nbsp  Парола:*</label>     -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="user-password" name="user-password" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="remember me" name="remember me" value="запомни ме" />
+            <label for="remember me">запомни ме</label>
+        </form>
+        <br />
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Вход" />
+        </form>
+    </div>
+
+    <div class="loginF" id="loginF">
+        <form id="user1">
+            <p class="h1Customers">Вход Фирми</p>
+            <!--    <label for="user-username">&nbsp&nbsp&nbsp  Имейл:*</label>   -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="user-username" name="user-username" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <br />
+        <form>
+            <!--    <label for="user-password">&nbsp&nbsp&nbsp  Парола:*</label>     -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="user-password" name="user-password" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="remember me" name="remember me" value="запомни ме" />
+            <label for="remember me">запомни ме</label>
+        </form>
+        <br />
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Вход" />
+        </form>
+    </div>
+
+    <form id="search">
+        <fieldset>
+            <br />
+            <legend id="regz">&nbsp&nbsp&nbsp&nbsp&nbsp Публикуване &nbsp&nbsp&nbsp&nbsp&nbsp</legend>
+            <br />
+
+            <br />
+            <!--  == Simple dropdown menu Publish == -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Фирми / Потребители</label>
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<select id="country">
+                <option onclick="location.href='PublishF.html'">Фирми</option>
+                <option onclick="location.href='PublishC.html'">Потребители</option>
+
+            </select>
+
+            <!-- == Progresive Bar TEST == -->
+            <div class="progress progress-striped active">
+                <div class="bar" style="width: 40%;"></div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%"></div>
+            </div>
+
+
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-success"
+                     role="progressbar" aria-valuenow="60"
+                     aria-valuemin="0" aria-valuemax="100"
+                     style="width: 90%;">
+                </div>
+            </div>
+
+            <br />
+            <br />
+            <br />
+
+            <span id="logo"></span>
+            <div id="colorstrip" />
+
+
+            <br />
+            <br />
+            <br />
+
+            <div id="Progress_Status">
+                <div id="myprogressBar">1%</div>
+            </div>
+
+            <br />
+            <br />
+            <br />
+
+            <button onclick="update()">Start Download</button>
+
+
+
+        </fieldset>
+    </form>
+
+    <style>
+
+        #Progress_Status {
+            width: 50%;
+            background-color: #ddd;
+        }
+
+        #myprogressBar {
+            width: 1%;
+            height: 35px;
+            background-color: #4CAF50;
+            text-align: center;
+            line-height: 32px;
+            color: black;
+        }
+    </style>
+    
+
+        <h3>Example of Progress Bar Using JavaScript</h3>
+
+        <p>Download Status of a File:</p>
+
+        <div id="Progress_Status">
+            <div id="myprogressBar">1%</div>
+        </div>
+
+        <br>
+        <button onclick="update()">Start Download</button>
+
+        <script>
+
+            function update() {
+                var element = document.getElementById("myprogressBar");
+                var width = 1;
+                var identity = setInterval(scene, 10);
+                function scene() {
+                    if (width >= 100) {
+                        clearInterval(identity);
+                    } else {
+                        width++;
+                        element.style.width = width + '%';
+                        element.innerHTML = width * 1 + '%';
+                    }
+                }
+            }
+
+        </script>
+
+
+
+        <hr class="hr1" />
+        <!--   <hr class="hr2" />   -->
+
+        <div class="dleft"></div>
+        <div class="dright"></div>
+
+    </body>
+    <footer>
+        <hr class="hr3" />
+        <h3><em>Условия за ползване</em></h3>
+    </footer>
+</html>

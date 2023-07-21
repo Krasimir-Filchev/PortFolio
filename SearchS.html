@@ -1,0 +1,623 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="CSS-Interview-2.css" />
+    <script type="text/javascript" src="./lib/jquery-3.4.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JS-IA.js"></script>
+
+    <title>Interview Agency</title>
+    <a href="INDEX.html" class="button44">
+        <span>back</span>
+    </a>
+    <h1><span id="I">I</span><em>nterview</em>&nbsp;<span id="A">A</span><em>gency</em></h1>
+    <h2><em>Set your own expectations</em></h2>
+</head>
+<div class="header">
+    <img src="TestLogo73.jpg" alt="logo" class="logo" />
+</div>
+<body>
+
+    <div class="dropdown">
+        <button id="dropbtn">Вход</button>
+        <div class="dropdown-content">
+            <button class="bdrop" id="Jdemo1"> >  Фирми</button>
+            <button class="bdrop" id="Jdemo2"> >  Потребители</button>
+        </div>
+
+        <div class="buttons">
+
+            <div>
+                <a href="SearchS.html" class="button1" style="text-decoration:none">Търсене</a>
+            </div>
+            <div>
+                <a href="PublishC.html" class="button2" style="text-decoration:none">Публикуване</a>
+            </div>
+            <div>
+                <a href="#" class="button3" style="text-decoration:none">Услуги</a>
+            </div>
+            <div>
+                <a href="INDEX-Interview-2.html" class="button4" style="text-decoration:none">За нас</a>
+            </div>
+            <div>
+                <a href="#" class="button5" style="text-decoration:none"><span id="bold">&nbsp +</span> Регистрация</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bubble">
+        <a href="RegistrationF.html" style="text-decoration:none;"><button id="regh1">Фирми</button></a><a href="RegistrationC.html" style="text-decoration:none;"><button id="regh2">Потребители</button></a>
+    </div>
+
+    <div>
+        <a href="TOP.html" style="text-decoration:none"><img src="BG.jpg" alt="BG Flag" class="BG" /></a>
+    </div>
+    <div>
+        <a href="TOP.html" style="text-decoration:none"><img src="UK.jpg" alt="UK Flag" class="UK" /></a>
+    </div>
+
+    <div class="loginC" id="loginC">
+        <form id="user2">
+            <p class="h1Customers">Вход Потребители</p>
+            <!--    <label for="user-username">&nbsp&nbsp&nbsp  Имейл:*</label>   -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="user-username" name="user-username" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <br />
+        <form>
+            <!--    <label for="user-password">&nbsp&nbsp&nbsp  Парола:*</label>     -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="user-password" name="user-password" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="remember me" name="remember me" value="запомни ме" />
+            <label for="remember me">запомни ме</label>
+        </form>
+        <br />
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Вход" />
+        </form>
+    </div>
+
+    <div class="loginF" id="loginF">
+        <form id="user1">
+            <p class="h1Customers">Вход Фирми</p>
+            <!--    <label for="user-username">&nbsp&nbsp&nbsp  Имейл:*</label>   -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="user-username" name="user-username" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <br />
+        <form>
+            <!--    <label for="user-password">&nbsp&nbsp&nbsp  Парола:*</label>     -->
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="user-password" name="user-password" value="Имейл..." onfocus="this.value=''" />
+        </form>
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="remember me2" name="remember me" value="запомни ме" />
+            <label for="remember me2">запомни ме</label>
+        </form>
+        <br />
+        <form>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Вход" />
+        </form>
+    </div>
+
+    <br />
+    <form id="search2">
+        <fieldset>
+            <br />
+            <legend id="regz">&nbsp&nbsp&nbsp&nbsp&nbsp Търсене&nbsp&nbsp&nbsp&nbsp&nbsp</legend>
+            <br />
+
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Месторабота</label>
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<select id="country" onfocus="this.value=''">
+                <option onclick="update11()">Всички</option>
+                <option onclick="update11()">София</option>
+                <option onclick="update11()"> Варна</option>
+                <option onclick="update11()">Пловдив</option>
+                <option onclick="update11()">Бургас</option>
+                <option onclick="update11()">Слънчев бряг</option>
+                <option onclick="update11()">Русе</option>
+                <option onclick="update11()">Стара Загора</option>
+                <option onclick="update11()">Велико Търново</option>
+                <option onclick="update11()">Плевен</option>
+                <option onclick="update11()">Шумен</option>
+                <option onclick="update11()">Друг Град</option>
+                <option onclick="update11()">Други държави</option>
+            </select>
+
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Обяви от </label>
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<select id="country" onfocus="this.value=''">
+                <option onclick="update12()">Всички</option>
+                <option onclick="update12()">Фирми </option>
+                <option onclick="update12()">Частни лица </option>
+            </select>
+
+            <!--  == Checkboxes inside select / dropdown menu == -->
+
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Ниво</label>
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes()">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp<select id="levels" onfocus="this.value=''">
+                        <option>Изберете опция....</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes" onclick="update13()">
+                    <br />
+                    <label for="one">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="one" />  Мениджмънт
+                    </label>
+                    <label for="two">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="two" />  Специалисти/Експерти
+                    </label>
+                    <label for="three">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="three" />  Служители
+                    </label>
+                </div>
+            </div>
+            <!--  == Checkboxes inside select / dropdown menu 2 == -->
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Вид</label>
+            <div class="multiselect2">
+                <div class="selectBox2" onclick="showCheckboxes2()">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp<select id="levels" onfocus="this.value=''">
+                        <option>Изберете опция....</option>
+                    </select>
+                    <div class="overSelect2"></div>
+                </div>
+                <div id="checkboxes2" onclick="update14()">
+                    <br />
+                    <label for="one2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="one2" />  Пълно работно време
+                    </label>
+                    <br />
+                    <label for="two2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="two2" />  Непълно работно време
+                    </label>
+                    <br />
+                    <label for="three2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="three2" />  Постоянна работа
+                    </label>
+                    <br />
+                    <label for="four2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="four2" />  Временна работа
+                    </label>
+                    <br />
+                    <label for="five2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="five2" />  Стаж
+                    </label>
+                    <br />
+                    <label for="six2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six2" />  Подходяща за студенти
+                    </label>
+                </div>
+            </div>
+            <!--  == Checkboxes inside select / dropdown menu 3 == -->
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Сфера</label>
+            <div class="multiselect3">
+                <div class="selectBox3" onclick="showCheckboxes3()">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp<select id="levels" onfocus="this.value=''">
+                        <option>Изберете опция....</option>
+                    </select>
+                    <div class="overSelect3"></div>
+                </div>
+                <div id="checkboxes3" onclick="update15()">
+                    <br />
+                    <label for="one3">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="one3" /> Авиация
+                    </label>
+                    <br />
+                    <label for="two3">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="two3" /> Автомобили
+                    </label>
+                    <br />
+                    <label for="three3">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="three3" /> Административни
+                    </label>
+                    <br />
+                    <label for="four3">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="four3" /> Архитектура
+                    </label>
+                    <br />
+                    <label for="five3">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="five3" /> Банки
+                    </label>
+                    <br />
+                    <label for="six3">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six3" /> Дизайн
+                    </label>
+                    <br />
+                    <label for="seven3">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="seven3" /> Енергетика
+                    </label>
+                    <br />
+                    <label for="seven31">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="seven31" /> Застраховане
+                    </label>
+                    <br />
+                    <label for="seven2">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="seven2" /> Здравеопазване
+                    </label>
+                    <br />
+                    <label for="seven33">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="seven33" /> Изкуство
+                    </label>
+                    <br />
+                    <label for="seven34">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="seven34" /> Държавна администрация
+                    </label>
+                    <br />
+                    <label for="six31">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six31" /> ИТ - Админи
+                    </label>
+                    <br />
+                    <label for="six32">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six32" /> ИТ - Софтуер
+                    </label>
+                    <br />
+                    <label for="six33">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six33" /> ИТ - Xардуер
+                    </label>
+                    <br />
+                    <label for="six34">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six34" /> Консултантски услуги
+                    </label>
+                    <br />
+                    <label for="six35">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six35" /> Контакт центрове/Call Centers
+                    </label>
+                    <br />
+                    <label for="six36">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six36" /> Логистика/Спедиция
+                    </label>
+                    <br />
+                    <label for="six37">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six37" /> Маркетинг
+                    </label>
+                    <br />
+                    <label for="six38">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six38" /> Медии
+                    </label>
+                    <br />
+                    <label for="six39">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six39" /> Мениджмънт
+                    </label>
+                    <br />
+                    <label for="six311">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six311" /> Недвижими имоти
+                    </label>
+                    <br />
+                    <label for="six312">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six312" /> Образование
+                    </label>
+                    <br />
+                    <label for="six313">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six313" /> Почистване
+                    </label>
+                    <br />
+                    <label for="six314">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six314" /> Право
+                    </label>
+                    <br />
+                    <label for="six315">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six315" /> Производство
+                    </label>
+                    <br />
+                    <label for="six316">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six316" /> Туризъм
+                    </label>
+                    <br />
+                    <label for="six321">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six321" /> Реклама/PR
+                    </label>
+                    <br />
+                    <label for="six322">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six322" /> Ремонти
+                    </label>
+                    <br />
+                    <label for="six323">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six323" /> Ресторанти
+                    </label>
+                    <br />
+                    <label for="six324">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six324" />Сигурност/Охрана
+                    </label>
+                    <br />
+                    <label for="six325">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six325" /> Спорт
+                    </label>
+                    <br />
+                    <label for="six326">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six326" /> Строителство
+                    </label>
+                    <br />
+                    <label for="six331">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six331" /> Счетоводство
+                    </label>
+                    <br />
+                    <label for="six332">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six332" /> Телекомуникации
+                    </label>
+                    <br />
+                    <label for="six333">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six333" /> Телекомуникации
+                    </label>
+                    <br />
+                    <label for="six334">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six334" /> Търговия
+                    </label>
+                    <br />
+                    <label for="six335">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six335" /> Xамалство
+                    </label>
+                    <br />
+                    <label for="six341">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six341" /> Хотели
+                    </label>
+                    <br />
+                    <label for="six342">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six342" /> Човешки ресурси/HR
+                    </label>
+                    <br />
+                    <label for="six343">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six343" /> Шофьори
+                    </label>
+                </div>
+            </div>
+
+
+
+            <!--  == Checkboxes inside select / dropdown menu 4 == -->
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Чужди езици</label>
+            <div class="multiselect4">
+                <div class="selectBox4" onclick="showCheckboxes4()">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp<select id="levels" onfocus="this.value=''">
+                        <option>Изберете опция....</option>
+                    </select>
+                    <div class="overSelect4"></div>
+                </div>
+                <div id="checkboxes4" onclick="update16()">
+                    <br />
+                    <label for="one4">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="one4" /> Английски
+                    </label>
+                    <br />
+                    <label for="two4">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="two4" /> Немски
+                    </label>
+                    <br />
+                    <label for="three4">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="three4" /> Руски
+                    </label>
+                    <br />
+                    <label for="four4">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="four4" /> Френски
+                    </label>
+                    <br />
+                    <label for="five4">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="five4" /> Италиански
+                    </label>
+                    <br />
+                    <label for="six4">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six4" /> Испански
+                    </label>
+                    <br />
+                    <label for="six41">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six41" /> Турски
+                    </label>
+                    <br />
+                    <label for="six42">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six42" /> Полски
+                    </label>
+                    <br />
+                    <label for="six43">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six43" /> Нидерландски
+                    </label>
+                    <br />
+                    <label for="six44">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six44" /> Румънски
+                    </label>
+                    <br />
+                    <label for="six45">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six45" /> Гръцки
+                    </label>
+                    <br />
+                    <label for="six46">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six46" /> Португалски
+                    </label>
+                    <br />
+                    <label for="six47">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six47" /> Чешки
+                    </label>
+                    <br />
+                    <label for="six48">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six48" /> Шведски
+                    </label>
+                    <br />
+                    <label for="six49">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six49" /> Унгарски
+                    </label>
+                    <br />
+                    <label for="six50">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six50" /> Арабски
+                    </label>
+                    <br />
+                    <label for="six51">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six51" /> Датски
+                    </label>
+                    <br />
+                    <label for="six52">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six52" /> Фински
+                    </label>
+                    <br />
+                    <label for="six53">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six53" /> Китайски
+                    </label>
+                    <br />
+                    <label for="six54">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six54" /> Сръбски
+                    </label>
+                    <br />
+                    <label for="six55">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six55" /> Норвежки
+                    </label>
+                    <br />
+                    <label for="six56">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six56" /> Естонски
+                    </label>
+                    <br />
+                    <label for="six57">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six57" /> Словашки
+                    </label>
+                    <br />
+                    <label for="six58">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six58" /> Японски
+                    </label>
+                    <br />
+                    <label for="six59">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six59" /> Хинди
+                    </label>
+                    <br />
+                    <label for="six60">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six60" /> Корейски
+                    </label>
+                    <br />
+                    <label for="six61">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="six61" /> Словенски
+                    </label>
+                </div>
+            </div>
+
+            <br />
+
+            &nbsp&nbsp&nbsp&nbsp&nbsp<label for="country" class="HSearch1">Заплата </label>
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<select id="country" onfocus="this.value=''">
+                <option onclick="update17()">Всички</option>
+                <option onclick="update17()">от 0 до 500</option>
+                <option onclick="update17()">от 500 до 1000</option>
+                <option onclick="update17()">от 1000 до 2000</option>
+                <option onclick="update17()">от 2000 до 3000</option>
+                <option onclick="update17()">от 3000 до 5000</option>
+                <option onclick="update17()">5000+</option>
+            </select>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="sub1">
+            <label for="sub1" class="red1" onclick="update18()">Обяви само на български</label>
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="sub2">
+            <label for="sub2" class="red1" onclick="update18()">Обяви с посочена заплата</label>
+            <br />
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Търси" id="sub3">
+            <br />
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Нулиране / Reset" id="sub4">
+
+
+
+
+        </fieldset>
+    </form>
+
+
+    <!--  == Checkboxes inside select / dropdown menu == / ORIGINAL
+
+
+    <div class="multiselect">
+        <div class="selectBox" onclick="showCheckboxes()">
+            <select>
+                <option>Select an option</option>
+            </select>
+            <div class="overSelect"></div>
+        </div>
+        <div id="checkboxes">
+            <label for="one">
+                <input type="checkbox" id="one" />First checkbox
+            </label>
+            <label for="two">
+                <input type="checkbox" id="two" />Second checkbox
+            </label>
+            <label for="three">
+                <input type="checkbox" id="three" />Third checkbox
+            </label>
+        </div>
+    </div>
+
+    -->
+    <!--
+
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-PName" value="Име.....*" onfocus="this.value=''" />
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-FName" value="Фамилия....*" onfocus="this.value=''" />
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<label>На зададения имейл адрес ще получите имейл за потвърждение</label>
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-Email" value="Имейл....*" onfocus="this.value=''" />
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="reg-EmailC" value="Потвърдете имейла....*" onfocus="this.value=''" />
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="reg-Pass" value="Password....*" onfocus="this.value=''" />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<label id="PExplanation">(Паролата трябва да бъде минимум 10 символа и да включва цифри, букви и специални символи)</label>
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" id="reg-PassC" value="Password....*" onfocus="this.value=''" />
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox" id="TermsC" />
+    <label>Съгласен съм с <a href="#">Условията за ползване</a></label>
+    <br />
+    <br />
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="submit" value="Регистрация" />
+    <br />
+
+  
+    </fieldset>
+    </form>
+    -->
+
+    <!-- == Progress Bar in Words TEST == -->
+
+    <div id="pr3">
+        <label>Прогрес</label>
+    </div>
+
+    <!-- == Progress Bar in % TEST == -->
+
+    <div id="Progress_Status3">
+        <div id="myprogressBar3" class="line stripesLoader"><div id="center2">0%</div></div>
+    </div>
+
+
+
+    <hr class="hr1" />
+    <!--   <hr class="hr2" />   -->
+
+    <div class="dleft2"></div>
+    <div class="dright2"></div>
+
+</body>
+<!-- <footer>
+    <hr class="hr4" />
+    <h3><em>Условия за ползване</em></h3>
+</footer> -->
+</html>

@@ -1,0 +1,21 @@
+﻿body {
+    /* background-image: url('TOP.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 1588px 862px;
+    position: absolute;
+    background-color: white;
+}
+p {
+    text-align: center;
+    color: darkorange;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: darkorange;
+}
+.top {
+    color: red;
+}
